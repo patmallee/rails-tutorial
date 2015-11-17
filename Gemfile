@@ -15,6 +15,9 @@ gem 'will_paginate', '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
 gem 'bootstrap-sass', '3.2.0.0'
 
+# stack overflow said this might fix the controller-not-creating error
+gem 'net-ssh'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '5.0.2'
 # Use Uglifier as compressor for JavaScript assets
